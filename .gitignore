@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+
+# Compiled binaries
+nn_gui
+a.exe
+*.exe
+*.o
+
+# Build directories
+build/
+bin/
+
+# IDE/editor settings
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Output files
+output/
