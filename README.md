@@ -6,7 +6,13 @@ This project shows how a basic neural network works internally without using a m
 
 The program can train a neural network on different 2D datasets, show the decision boundary, display training loss, and predict the class of a new point.
 
----
+----
+
+## Program Preview
+
+![C++ Neural Network Classifier](images/program.png)
+
+--
 
 ## Features
 
