@@ -12,7 +12,7 @@ The program can train a neural network on different 2D datasets, show the decisi
 
 ![C++ Neural Network Classifier](images/program.png)
 
---
+---
 
 ## Features
 
