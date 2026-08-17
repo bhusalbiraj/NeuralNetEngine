@@ -960,7 +960,7 @@ public:
     void loadSelectedDataset() {
         int val = dataset_choice->value();
         if (val == 0) {
-            if (!loadCSVData("X.csv", "y.csv", dataset_points)) {
+            if (!loadCSVData("data/X.csv", "data/y.csv", dataset_points)) {
                 cout << "[Notice] X.csv/y.csv not found, generating spiral dataset...\n";
                 generateSpiralData(dataset_points);
             }
@@ -1120,7 +1120,7 @@ int main(int argc, char** argv) {
     if (argc > 1 && string(argv[1]) == "--test") {
         cout << "[Test Mode] Running training verification on spiral dataset...\n";
         vector<Point2D> points;
-        if (!loadCSVData("X.csv", "y.csv", points)) {
+        if (!loadCSVData("data/X.csv", "data/y.csv", points)) {
             generateSpiralData(points);
         }
         NeuralNetwork net;
